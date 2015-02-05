@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8B209A41A83AA31007870C3 /* pizza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8B209A31A83AA31007870C3 /* pizza.jpg */; };
+		F8B209A61A83AAB6007870C3 /* pizza small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8B209A51A83AAB6007870C3 /* pizza small.jpg */; };
+		F8B209AC1A83B10A007870C3 /* Pound_layer_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8B209AB1A83B10A007870C3 /* Pound_layer_cake.jpg */; };
+		F8B209AE1A83B110007870C3 /* Bamboo_book_-_binding_-_UCR.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8B209AD1A83B110007870C3 /* Bamboo_book_-_binding_-_UCR.jpg */; };
 		F8BCEE251A7FE07B008851A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BCEE241A7FE07B008851A6 /* AppDelegate.swift */; };
 		F8BCEE271A7FE07B008851A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BCEE261A7FE07B008851A6 /* ViewController.swift */; };
 		F8BCEE2A1A7FE07B008851A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8BCEE281A7FE07B008851A6 /* Main.storyboard */; };
@@ -26,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F8B209A31A83AA31007870C3 /* pizza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pizza.jpg; sourceTree = "<group>"; };
+		F8B209A51A83AAB6007870C3 /* pizza small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pizza small.jpg"; sourceTree = "<group>"; };
+		F8B209AB1A83B10A007870C3 /* Pound_layer_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pound_layer_cake.jpg; sourceTree = "<group>"; };
+		F8B209AD1A83B110007870C3 /* Bamboo_book_-_binding_-_UCR.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bamboo_book_-_binding_-_UCR.jpg"; sourceTree = "<group>"; };
 		F8BCEE1F1A7FE07B008851A6 /* Bakken Prototype 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bakken Prototype 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8BCEE231A7FE07B008851A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8BCEE241A7FE07B008851A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +98,10 @@
 		F8BCEE221A7FE07B008851A6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F8B209AD1A83B110007870C3 /* Bamboo_book_-_binding_-_UCR.jpg */,
+				F8B209AB1A83B10A007870C3 /* Pound_layer_cake.jpg */,
+				F8B209A31A83AA31007870C3 /* pizza.jpg */,
+				F8B209A51A83AAB6007870C3 /* pizza small.jpg */,
 				F8BCEE231A7FE07B008851A6 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,7 +204,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8B209AC1A83B10A007870C3 /* Pound_layer_cake.jpg in Resources */,
+				F8B209AE1A83B110007870C3 /* Bamboo_book_-_binding_-_UCR.jpg in Resources */,
+				F8B209A61A83AAB6007870C3 /* pizza small.jpg in Resources */,
 				F8BCEE2A1A7FE07B008851A6 /* Main.storyboard in Resources */,
+				F8B209A41A83AA31007870C3 /* pizza.jpg in Resources */,
 				F8BCEE2F1A7FE07B008851A6 /* LaunchScreen.xib in Resources */,
 				F8BCEE2C1A7FE07B008851A6 /* Images.xcassets in Resources */,
 			);
@@ -407,6 +423,7 @@
 				F8BCEE401A7FE07B008851A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8BCEE411A7FE07B008851A6 /* Build configuration list for PBXNativeTarget "Bakken Prototype 2Tests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +432,7 @@
 				F8BCEE431A7FE07B008851A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
